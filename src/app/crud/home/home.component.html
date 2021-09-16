@@ -1,0 +1,42 @@
+
+    <div class="navbar">
+      <h1>My Products <button mat-raised-button color="warn" style="position: absolute; right: 20px;" type="button" (click)="logout()"><span class="material-icons">logout</span>Logout</button>
+     </h1>
+    </div><br><br>
+    <button mat-raised-button color="primary" style="position: absolute; right: 20px;" type="button" routerLink ="/crud/create" routerLinkActive="active" ><span class="material-icons">
+      add_circle_outline</span>&nbsp;Create new product</button><br><br> 
+ 
+
+            
+         <div> 
+    <table >
+      <thead>
+          <tr >
+              <th>#</th>
+              <th>Product Name</th>
+              <th>Description</th>
+              <th>Price</th>                            
+              <th>Action</th>
+              
+          </tr>
+      </thead>
+      <tbody>
+          <tr  *ngFor="let product of products">
+              <td>{{product.id}}</td>
+              <td>{{product.name}}</td>
+              <td>{{product.description}}</td>
+              <td>{{product.price}}</td>
+             
+              <td>
+                <a  [routerLink] ="['/crud/update']" [queryParams]="{id: product.id}">Update</a><br>
+                    <a (click)="delete(product.id)"><u>Remove</u></a>
+                  
+              </td> 
+
+          </tr>
+       
+      </tbody>
+   </table>
+  </div> 
+
+  

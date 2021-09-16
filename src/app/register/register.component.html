@@ -1,0 +1,28 @@
+<body>
+    <div class="card">
+      <h3>NEW USER</h3>
+    
+      <div>
+        <form>
+      
+        <label>Username&nbsp;&nbsp;</label>
+        <input type="text" width="20" name="username" placeholder="Enter the username" [(ngModel)]="username"><br><br>
+
+        <label> Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" width="15" name="email" placeholder="Enter the email" [(ngModel)]="email"><br><br>
+
+        <label>Role &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" width="10" name="role" placeholder="Enter the Role" [(ngModel)]="role"><br><br>
+      
+      
+        <label>Password&nbsp;&nbsp;</label>
+        <input type="password" width="20" name="password" placeholder="Enter the password" [(ngModel)]="password"><br><br>
+    
+    
+        <button type="submit" mat-flat-button color="primary" (click) ="RegisterUser()">Register</button>&nbsp;&nbsp;
+        <button mat-flat-button color="warn" [routerLink]="['']">Back</button><br><br>
+    </form>
+    </div>
+    </div>
+    </body>
+    

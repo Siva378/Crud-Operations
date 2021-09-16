@@ -1,0 +1,19 @@
+<div class="card">
+    <h1>Update Product Details</h1>
+    <form>
+        <div>
+            <label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="name" [(ngModel)]="products.name" rows ="2" maxlength="30"><br><br>
+        
+        
+            <label>Description&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="description" [(ngModel)]="products.description" rows ="5" maxlength="40"></textarea><br><br>
+        
+            <label>Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="price" [(ngModel)]="products.price" maxlength="10"><br><br>
+        
+        <button (click)="updateForm()">Update</button><br><br>
+    </div>
+    </form>
+</div>
+

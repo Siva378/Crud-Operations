@@ -1,0 +1,29 @@
+<body>
+<div id="slogan">
+  <br>
+  <h2>Are you ready to enter a Shopping spree?</h2>
+  <h4>Get flat 50% off on your first shopping venture</h4>
+  <h4>Don't have a account? Register below!</h4><br>
+</div>
+
+<div class="card">
+  <h3>USER LOGIN</h3>
+
+  
+    <form>
+  
+    <label>Username&nbsp;&nbsp;</label>
+    <input type="text" width="20" name="username" placeholder="Enter the username" [(ngModel)]="username"><br><br>
+  
+  
+    <label>Password&nbsp;&nbsp;</label>
+    <input type="password" width="20" name="password" placeholder="Enter the password" [(ngModel)]="password"><br><br>
+
+
+    <button mat-flat-button color="primary" (click) ="LoginUser()">Login</button>&nbsp;&nbsp;
+    <button mat-flat-button color="basic" [routerLink] ="['/register']" >Register</button><br><br>
+  </form>
+
+</div>
+</body>
+

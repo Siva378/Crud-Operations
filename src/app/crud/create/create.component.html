@@ -1,0 +1,18 @@
+<div class="card">
+
+    <form [formGroup]="productForm" (ngSubmit)="submitForm()" novalidate>
+       
+            <label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" formControlName="name" class="form-control" rows ="2" maxlength="20"><br><br>
+        
+            <label>Description&nbsp;</label>
+            <textarea class="form-control" formControlName="description" rows="5" maxlength="40"></textarea><br><br>
+        
+            <label>Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" formControlName="price" class="form-control"><br><br>
+
+        
+        <button type="submit" class="btn btn-primary">Submit</button><br><br> 
+        </form>
+    </div>
+   

@@ -1,0 +1,29 @@
+div{
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    
+}
+label{
+    display: inline-block;
+}
+textarea{
+    text-align: center;
+    padding-left: 3mm;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: ivory;
+   
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }

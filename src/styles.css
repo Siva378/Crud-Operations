@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color:seagreen; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+header h1{
+    background-color:seagreen;
+    color: yellow;
+    text-shadow: 2px 2px blue;
+    text-size-adjust: 50px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    top:0;
+    left: 0;
+    right: 0;
+    height:1em;
+    padding-top: 10px;
+
+    
+    
+    
+
+}
+
+footer{
+    background-color:seagreen;
+   
+    text-align: center;
+    bottom: 0;
+    
+    
+    padding-top: 2px;
+   
+    
+    height: 2em;
+    
+    position: sticky; 
+    
+    width:100%;
+ 
+  
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,87 @@
+.example-container {
+    height:auto;
+    width: auto;
+    max-width:fit-content;
+    overflow:scroll;
+  }
+  
+  /* table th tr td {
+    
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-collapse: collapse;
+  } */
+  h1{
+      text-align: center;
+     padding-top: 10px;
+      
+  }
+  table ,th,tr,td{ 
+  
+    border :1.5px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+  width: 100%;
+  align-items: center;
+  background-color: ivory;
+  overflow: auto;
+}
+  button{
+      text-align: center;
+      
+      border-radius: 5px;
+  }
+  a{
+    cursor: pointer;
+  }
+  
+  
+/*  
+  th.mat-column-no, th.mat-column-name, th.mat-column-description,th.mat-column-price,th.mat-column-action{
+      text-align: center;
+      border: 1px solid black;
+      background-color: burlywood;
+    }
+  td.mat-column-no, td.mat-column-name, td.mat-column-description,td.mat-column-price,td.mat-column-action{
+    border: 1px solid black;
+    text-align: center;
+
+  } */
+  .navbar{
+    background-color: darkcyan;
+  }
+  .ab{
+    background-color: beige;
+
+  }
+  .navbar {
+    overflow: hidden;
+    background-color:lightyellow;
+    position: static;
+    top: 30px;
+    width: 100%;
+
+  }
+  .navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .navbar button{
+    margin-top: 1px;
+  }
+
+
+  
